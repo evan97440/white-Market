@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+}
+header{
+    margin-top: -70px;
+    background-color: rgb(0, 0, 0);
+    width: 900px;
+    height: 100px;
+}
+#black{
+    font-size: 40px;
+    color: white;
+}
+nav{
+    width: auto;
+}
+#recherche{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+#searchbar{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px
+}
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ input[type=text]:focus {
+   width: 70%;
+ }
+button{
+    margin-top: -10px;
+    margin-left: -230px;
+    width: 20px;
+    height: 20px;
+}
+#gaming{
+    /*width: 1536px;*/
+    width: 177px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: -750px;
+    background-color: black;
+    text-align:center
+}
+#composant{
+    width: 177px;
+    height: 70px;
+    margin-left: 190px;
+    margin-top: -90px;
+    background-color: black;
+    text-align: center;
+}
+#univers{
+    width: 177px;
+    height: 70px;
+    margin-left: 370px;
+    margin-top: -90px;
+    background-color: black;
+    text-align: center;
+}
+#image{
+    width: auto;
+    height: 290px;
+    background-image: url(../image/css2.jpg);
+    background-repeat: no-repeat;
+    margin-top: -0px;
+}
+#gauche{
+    width: 40px;
+    height: 162px;
+    background-image:url(../image/gauche\ -\ css.jpeg);
+    background-repeat: no-repeat;
+}
+#carte{
+    background-image: url(../image/OIP\ -\ Css.jpeg);
+    background-repeat: no-repeat;
+    width: 568px;
+    height: 470px;
+    margin-left: 50px;
+    margin-top: -210px;
+}
+#clavier{
+    width: 568px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: -200px;
+    background-image: url(../image/R\ -\ Copie.jpeg);
+    background-repeat: no-repeat;
+}
+#droite{
+    width: 128px;
+    height: 470px;
+    background-image:url(../image/droite\ -\ css.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 510px;
+    margin-top: -330px;
+}
+#ligne{
+    background-color: white;
+    width: 450px;
+    height: 1px;
+    margin-left: 50px;
+}
+footer{
+    width: auto;
+    height: 800px;
+
+}
+#camion{
+    width: 150px;
+    height: 128px;
+    background-image: url(../image/ca.PNG);
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#ca{
+    margin-left: 380px;
+    margin-top: -110px;
+    color: red;
+}
+#prix{
+    background-image: url(../image/euro-css.PNG);
+    width: 150px;
+    height: 128px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#pr{
+    margin-left: 380px;
+    margin-top: -135px;
+    color: red;
+}
+#fin{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}

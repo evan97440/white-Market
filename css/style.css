@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    margin-top: -70px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 100px;
+}
+#black{
+    font-size: 50px;
+    color: white;
+}
+#recherche{
+    margin-top: -150px;
+    margin-left: 700px;
+}
+#searchbar{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px
+}
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+ }
+
+ input[type=text]:focus {
+   width: 70%;
+ }
+button{
+    margin-top: -200px;
+    margin-left: 1420px;
+    width: 50px;
+    height: 50px;
+}
+
+/*nav*/
+a{
+    color: red;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+#gaming{
+    /*width: 1536px;*/
+    width: 312px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: -800px;
+    background-color: black;
+    text-align:center
+}
+#composant{
+    width: 312px;
+    height: 70px;
+    margin-left: 612px;
+    margin-top: -90px;
+    background-color: black;
+    text-align: center;
+}
+#univers{
+    width: 312px;
+    height: 70px;
+    margin-left: 1112px;
+    margin-top: -90px;
+    background-color: black;
+    text-align: center;
+}
+#image{
+    width: auto;
+    height: 751px;
+    background-image: url(../image/19108_b.jpg);
+    margin-top: -0px;
+}
+#section1{
+    width: auto;
+    height: 600px;
+    margin-top: 700px;
+    background-color: rgb(0, 0, 0);
+}
+#gauche{
+    width: 145px;
+    height: 470px;
+    background-image:url(../image/gauche.jpeg);
+}
+#carte{
+    width: 568px;
+    height: 470px;
+    margin-left: 150px;
+    margin-top: -470px;
+    background-image: url(../image/OIP.jpeg);
+}
+#clavier{
+    width: 568px;
+    height: 400px;
+    margin-left: 818px;
+    margin-top: -500px;
+    background-image: url(../image/R.jpeg);
+}
+#droite{
+    width: 128px;
+    height: 470px;
+    background-image:url(../image/droite.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 1391px;
+    margin-top: -400px;
+}
+#ligne{
+    background-color: white;
+    width: 1250px;
+    height: 1px;
+    margin-left: 150px;
+}
+footer{
+    width: auto;
+    height: 500px;
+
+}
+.sii{
+color: white;
+text-align: center;
+font-size: 50px;
+}
+#camion{
+    width: 150px;
+    height: 128px;
+    background-image: url(../image/ca.PNG);
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#ca{
+    margin-left: 380px;
+    margin-top: -110px;
+    color: red;
+}
+#prix{
+    width: 150px;
+    height: 128px;
+    margin-left: 850px;
+    margin-top: -100px;
+    background-image: url(../image/euro-css.PNG);
+}
+#pr{
+    margin-left: 1020px;
+    margin-top: -110px;
+    color: red;
+}
+#fin{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
